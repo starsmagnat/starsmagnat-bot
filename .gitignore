@@ -1,0 +1,51 @@
+# Секретные файлы
+.env
+.env.local
+.env*.local
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи и кэш
+*.log
+logs/
+.cache/
+.pytest_cache/
+
+# Системные файлы (Mac)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Системные файлы (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Базы данных (если есть локальные)
+*.db
+*.sqlite
+*.sqlite3
+
+# Временные файлы бота
+tmp/
+temp/
